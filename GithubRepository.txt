@@ -1,0 +1,21 @@
+cd path/to/your/project
+git init
+touch index.html style.css script.js README.md
+git add .
+git commit -m "Add index.html, style.css, script.js, and README.md"
+git remote add origin https://github.com/your_username/your_repository_name.git
+git push -u origin master
+
+cd path/to/your/project
+git init
+touch index.html category.html
+git add index.html
+git commit -m "Add index.html with initial layout"
+git add category.html
+git commit -m "Add category.html with category page template"
+
+git remote add origin https://github.com/your_username/your_repository_name.git
+git push -u origin master
+
+If the remote repository is already set up, simply push the changes:
+git push
